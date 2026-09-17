@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rakafarm | Agriculture, Innovation & Books</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f7f2;
+            color: #222;
+        }
+
+        header {
+            background: #164a2a;
+            color: white;
+            padding: 30px 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            margin: 8px 0 0;
+        }
+
+        nav {
+            background: #0f351e;
+            padding: 14px 5px;
+            text-align: center;
+            overflow-x: auto;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 7px;
+            font-size: 14px;
+            white-space: nowrap;
+        }
+
+        .hero {
+            padding: 65px 20px;
+            text-align: center;
+            background: white;
+        }
+
+        .hero h2 {
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 10px 5px;
+            padding: 13px 20px;
+            background: #d89b20;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .section {
+            padding: 45px 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #164a2a;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            width: 260px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+        }
+
+        .card h3 {
+            color: #164a2a;
+        }
+
+        .social-links a {
+            display: block;
+            max-width: 300px;
+            margin: 12px auto;
+            padding: 14px;
+            background: white;
+            color: #164a2a;
+            text-decoration: none;
+            border-radius: 7px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            font-weight: bold;
+        }
+
+        .contact a {
+            color: #164a2a;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #164a2a;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>RAKAFARM</h1>
+    <p>Agriculture • Innovation • Books • Learning</p>
+</header>
+
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#agriculture">Agriculture</a>
+    <a href="#books">Books</a>
+    <a href="#youtube">YouTube</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+
+<section class="hero" id="home">
+
+    <h2>Growing Ideas. Growing Food. Growing Dreams.</h2>
+
+    <p>
+        Welcome to Rakafarm — a platform connecting agriculture,
+        innovation, knowledge, creativity and sustainable development.
+    </p>
+
+    <a href="#agriculture" class="button">
+        Explore Rakafarm
+    </a>
+
+</section>
+
+
+<section class="section" id="agriculture">
+
+    <h2>🌱 Agriculture & Innovation</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🪰 BSF Innovation</h3>
+
+            <p>
+                Exploring Black Soldier Fly technology for sustainable
+                poultry nutrition and agricultural productivity.
+            </p>
+        </div>
+
+
+        <div class="card">
+            <h3>🌾 Sustainable Agriculture</h3>
+
+            <p>
+                Sharing ideas and practical approaches for productive,
+                climate-smart and sustainable farming.
+            </p>
+        </div>
+
+
+        <div class="card">
+            <h3>📚 Agricultural Learning</h3>
+
+            <p>
+                Making agricultural knowledge accessible to farmers,
+                students and young innovators.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="section" id="books">
+
+    <h2>📚 Books</h2>
+
+    <p>
+        Discover books by Rakava Alex Martin.
+    </p>
+
+    <a
+        href="https://amazon.com/author/rakavalexmartin"
+        class="button"
+        target="_blank">
+        🛒 Amazon Author Page
+    </a>
+
+    <a
+        href="https://booklovers-namibia.com/authors/rakava-alex-martin"
+        class="button"
+        target="_blank">
+        📖 Booklovers Namibia
+    </a>
+
+</section>
+
+
+<section class="section" id="youtube">
+
+    <h2>▶️ Rakafarm YouTube</h2>
+
+    <p>
+        Watch agricultural education, innovation,
+        sustainability and other Rakafarm content.
+    </p>
+
+    <a
+        href="https://www.youtube.com/@RakaFarm-b1p"
+        class="button"
+        target="_blank">
+        ▶️ Visit YouTube Channel
+    </a>
+
+</section>
+
+
+<section class="section" id="about">
+
+    <h2>👤 About Rakafarm</h2>
+
+    <p>
+        Rakafarm is a platform focused on agriculture,
+        innovation, books, education and sustainable development.
+    </p>
+
+</section>
+
+
+<section class="section">
+
+    <h2>🌍 Connect with Rakafarm</h2>
+
+    <div class="social-links">
+
+        <a
+            href="https://www.linkedin.com/in/alex-rakava-83592b272"
+            target="_blank">
+            💼 LinkedIn
+        </a>
+
+        <a
+            href="https://www.facebook.com/profile.php?id=100076534512587"
+            target="_blank">
+            📘 Facebook
+        </a>
+
+        <a
+            href="https://www.youtube.com/@RakaFarm-b1p"
+            target="_blank">
+            ▶️ YouTube
+        </a>
+
+    </div>
+
+</section>
+
+
+<section class="section contact" id="contact">
+
+    <h2>📞 Contact Rakafarm</h2>
+
+    <p>
+        Have a question, collaboration idea or agricultural project?
+    </p>
+
+    <p>
+        📱
+        <a href="tel:+254716719143">
+            +254 716 719 143
+        </a>
+    </p>
+
+    <p>
+        📧
+        <a href="mailto:rakava010@gmail.com">
+            rakava010@gmail.com
+        </a>
+    </p>
+
+
+    <a
+        href="https://wa.me/254716719143?text=Hello%20Rakafarm%2C%20I%20would%20like%20to%20get%20in%20touch."
+        class="button"
+        target="_blank">
+        💬 Chat on WhatsApp
+    </a>
+
+</section>
+
+
+<footer>
+
+    <p>© 2026 Rakafarm. All rights reserved.</p>
+
+    <p>
+        Agriculture • Innovation • Books • Sustainability
+    </p>
+
+</footer>
+
+</body>
+</html>
